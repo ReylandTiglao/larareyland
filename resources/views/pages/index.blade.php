@@ -36,7 +36,10 @@
                     <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-12 mt-3">
+
                         <a href="http://127.0.0.1:8000/new-"><input type="submit" class="btn btn-info" value="Register"></a>
+                            <input type="submit" class="btn btn-info" style="background-color:blue" value="Register">
+>
                         </div>
                     </div>
                 </form>
