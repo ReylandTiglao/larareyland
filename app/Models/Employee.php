@@ -2,6 +2,7 @@
 namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+
 class Employee extends Model
 {
   protected $table = 'employees';
@@ -9,11 +10,7 @@ class Employee extends Model
    protected $fillable = [
         'emp_name',
         'emp_name2',
-        'dob',
-        'phone',
-
+        'password',
     ];
-
     use HasFactory;
-
 }
